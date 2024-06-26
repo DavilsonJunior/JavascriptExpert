@@ -1,0 +1,22 @@
+nvm install 20 -> instala a versão 20
+nvm install --lts -> instala a versão long-term support (versão recomendada)
+nvm list
+nvm use 18 -> use a 18 que ja está instalado na minha maquina
+nvm uninstall 18 -> desinstala a versão 18
+nvm alias default 18 -> define a versão 18 como padrão
+nvm unalias default -> remove a versão padrão
+nvm ls-remote -> lista todas as versões do node disponíveis para download
+nvm install 18.12.1 -> instala uma versão específica do node
+
+
+nvm install 18.12.1 64 -> instala uma versão específica do
+nvm install 18.12.1 32 -> instala uma versão específica do
+nvm install 18.12.1 arm -> instala uma versão específica do
+nvm install 18.12.1 arm64 -> instala uma versão específica do
+nvm install 18.12.1 ppc64 -> instala uma versão específica
+nvm install 18.12.1 ppc64le -> instala uma versão específ
+
+####
+execute nvm use -> pega o arquivo .nvmrc e coloca como default
+node -v > .nvmrc -> salva a versão apropriada para aquele projeto
+
