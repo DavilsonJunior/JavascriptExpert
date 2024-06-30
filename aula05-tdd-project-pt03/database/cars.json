@@ -1,0 +1,23 @@
+[
+  {
+    "id": "418a9bfb-c2c4-432f-9352-9fe79bd9b984",
+    "name": "F-150",
+    "releaseYear": 2024,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "7386509c-3feb-4b15-a079-933d36738440",
+    "name": "Spyder",
+    "releaseYear": 2024,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "e4afeb85-28dd-4847-a69f-54e0f0738f36",
+    "name": "A4",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  }
+]
