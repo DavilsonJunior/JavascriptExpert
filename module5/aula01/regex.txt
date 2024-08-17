@@ -1,0 +1,52 @@
+https://regex101.com
+^\d{3}.\d{3}.\d{3}-\d{2}$
+
+123.123.123-14
+321.123.345-20
+200.300.500-19
+
+=====================================
+
+replace [.-] - vazio
+
+\w+ - o + diz que quero pegar toda letra até chegar em caracter especial, ae paro, o + é para pegar um ou mais se ele puder
+\s - fala para pegar um espaço, se eu colocar \S, \W \D, meio que é negando o que eles pegam
+
+imagina esse csv:
+
+Junior, Davilson
+Gomes, Laila
+Johnson, Jose
+
+com essa regex vou pegar os nomes e criar um JSON ou um objeto:
+(\w+),\s(\w+)$
+
+resultado:
+
+{ firstName: "Davilson", lastName: "Junior" }
+{ firstName: "Laila", lastName: "Gomes" }
+{ firstName: "Jose", lastName: "Johnson" }
+
+=====================================
+
+0 [Erick Wendel] (https://erickwendel.com) faz palestras e vocẽ devia
+segui-lo la no [Twitter](http://twitter.com/erickwendel_) ou até no
+[Instagram](https://instagram.com/erickwendel_)
+
+Ah e pode pesquisar no [Google](https://google.com) ou
+[Yahoo](https://yahoo.com)
+
+vai que vai!
+
+
+? - busca ate um delimitador
+.* - pega todos
+
+\[(.*?)\]\(([http|https].*?)\)
+
+<a href="$2">$1</a>
+
+resultado
+0 [Erick Wendel] (https://erickwendel.com) faz palestras e vocẽ devia
+segui-lo la no <a href="http://twitter.com/erickwendel_">Twitter</a> ou até no
+<a href="https://instagram.com/erickwendel_">Instagram</a>
