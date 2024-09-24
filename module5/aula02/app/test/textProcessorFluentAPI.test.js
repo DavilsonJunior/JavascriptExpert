@@ -1,6 +1,6 @@
 const { describe, it } = require('mocha')
 const { expect } = require('chai')
-const TextProcessorFluentAPI = require('./../src/textProcessorFluentAPI')
+const TextProcessorFluentAPI = require('../src/textProcessorFluentAPI')
 const mock = require('./mock/valid')
 
 describe('TextProcessorAPI', () => {
