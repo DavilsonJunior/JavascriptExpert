@@ -1,0 +1,16 @@
+{
+  "name": "@davilsonjunior/03-test-data-builder-object",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha -w test/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^8.4.0"
+  }
+}
