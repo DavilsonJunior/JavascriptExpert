@@ -10,7 +10,7 @@ class MockDatabase {
 
 // </ poderia estar em outro arquivo>
 
-rewiremock(() => require('./../src/util/database')).with(MockDatabase)
+rewiremock(() => require('../src/util/database')).with(MockDatabase)
 
 ;(async () => {
   {
